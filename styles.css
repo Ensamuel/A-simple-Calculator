@@ -1,0 +1,47 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    border: 3px solid gray;
+    border-radius: 30px;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: gray;
+}
+#display{
+    text-align: right;
+    height: 20px;
+    line-height: 10px;
+    padding: 40px;
+    font-size: 25px;
+    border: 1px solid gray;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: gray;
+}
+
+.buttons > div{
+    margin: 15px
+}
+
+.button{
+    border: 0.5px solid gray;
+    line-height: 70px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
